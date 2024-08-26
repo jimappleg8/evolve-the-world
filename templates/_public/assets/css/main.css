@@ -712,7 +712,7 @@ section,
   position: relative;
   inset: 0;
   z-index: 3;
-  padding: 140px 0 60px 0;
+  padding: 100px 0 60px 0;
 }
 
 @media (max-width: 768px),
@@ -724,7 +724,7 @@ section,
 
 .hero .info h2 {
   margin-bottom: 30px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   font-size: 72px;
   font-weight: 700;
   position: relative;
@@ -735,6 +735,7 @@ section,
   text-decoration: underline;
 }
 
+/*
 .hero .info h2:after {
   content: "";
   position: absolute;
@@ -747,6 +748,7 @@ section,
   bottom: 0;
   margin: auto;
 }
+*/
 
 @media (max-width: 768px) {
   .hero .info h2 {
@@ -897,43 +899,84 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# Key concepts Section
 --------------------------------------------------------------*/
-.services .service-item {
+.key-concepts .concept-item {
   background-color: var(--surface-color);
   padding: 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   transition: 0.3s;
 }
 
-.services .service-item .icon {
+.key-concepts .concept-item .icon {
   font-size: 36px;
   line-height: 0;
   margin-right: 30px;
   color: var(--accent-color);
 }
 
-.services .service-item .title {
+.key-concepts .concept-item .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 20px;
 }
 
-.services .service-item .title a {
+.key-concepts .concept-item .title a {
   color: var(--heading-color);
 }
 
-.services .service-item .description {
+.key-concepts .concept-item .description {
   line-height: 24px;
   font-size: 14px;
   margin: 0;
 }
 
-.services .service-item:hover {
+.key-concepts .concept-item:hover {
   border-color: var(--accent-color);
 }
 
-.services .service-item:hover .title a {
+.key-concepts .concept-item:hover .title a {
+  color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Projects Section
+--------------------------------------------------------------*/
+.projects .project-item {
+  background-color: var(--surface-color);
+  padding: 30px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  transition: 0.3s;
+}
+
+.projects .project-item .icon {
+  font-size: 36px;
+  line-height: 0;
+  margin-right: 30px;
+  color: var(--accent-color);
+}
+
+.projects .project-item .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.projects .project-item .title a {
+  color: var(--heading-color);
+}
+
+.projects .project-item .description {
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.projects .project-item:hover {
+  border-color: var(--accent-color);
+}
+
+.projects .project-item:hover .title a {
   color: var(--accent-color);
 }
 
