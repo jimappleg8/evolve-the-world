@@ -899,6 +899,39 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Getting Started Section
+--------------------------------------------------------------*/
+.getting-started .content h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.getting-started .content .fst-italic {
+  color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
+}
+
+.getting-started .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.getting-started .content ul li {
+  padding: 10px 0 0 0;
+  display: flex;
+}
+
+.getting-started .content ul i {
+  color: var(--accent-color);
+  margin-right: 0.5rem;
+  line-height: 1.2;
+  font-size: 1.25rem;
+}
+
+.getting-started .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
 # Key concepts Section
 --------------------------------------------------------------*/
 .key-concepts .concept-item {
@@ -1909,4 +1942,6 @@ section,
   /* Add your styles here */
 }
 
-
+div.credit {
+  font-size: 0.8em;
+}
