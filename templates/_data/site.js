@@ -16,11 +16,11 @@ export default {
   title: "Evolve the World",
 
   // A short description of your site, used for SEO and other metadata.
-  description: "A project to help build a promote the infrastucture needed for Cultural Creatives.",
+  description: "An Eleventy starter template for creating Open Artifacts projects.",
 
   // A longer description of your site, used in the open-artifact.json file. For
   // multiple paragraphs, use \n\n to separate them.
-  longDescription: "A project to help build a promote the infrastucture needed for Cultural Creatives.",
+  longDescription: "This is a starter template for creating Open Artifacts projects using the Eleventy static site generator. It includes features like automatic generation of open-artifact.json files, a project roadmap, and integration with Obsidian for content management.",
 
   // Information about the site maintainer.
   maintainer: {
@@ -37,13 +37,13 @@ export default {
   // supported. These are simple paragraphs with Markdown links so you can 
   // communicate whatever makes sense for your project.
 
-  homes: "Our [demo website](http://evolvetheworld.org/) is the place to start. You can also check out the [README on GitHub](https://github.com/jimappleg8/evolve-the-world).",
+  homes: "Our [demo website](http://open-artifacts-11ty-starter.netflify.app/) is the place to start. You can also check out the [README on GitHub](https://github.com/jimappleg8/open-artifacts-11ty-starter).",
 
-  collaborativeSpaces: "You can submit issues and pull requests on our [GitHub repository](https://github.com/jimappleg8/evolve-the-world).",
+  collaborativeSpaces: "You can submit issues and pull requests on our [GitHub repository](https://github.com/jimappleg8/open-artifacts-11ty-starter).",
 
-  needsDoingLists: "We maintain a list of tasks that we need help with on the website on our [roadmap page](http://evolvetheworld.org/project/roadmap/). We also use GitHub Issues to track tasks that need doing. Check out the [Issues tab on GitHub](https://github.com/jimappleg8/evolve-the-world/issues).",
+  needsDoingLists: "We maintain a list of tasks that we need help with on the website on our [roadmap page](http://open-artifacts-11ty-starter.netflify.app/project/roadmap/). We also use GitHub Issues to track tasks that need doing. Check out the [Issues tab on GitHub](https://github.com/jimappleg8/open-artifacts-11ty-starter/issues).",
 
-  adaptingTheProject: "You can freely use the starter template to create your own project website. We hope you will contribute back any improvements you make that might help others. If you feel like you need to take the project another direction, feel free to fork our [GitHub repository](https://github.com/jimappleg8/evolve-the-world).",
+  adaptingTheProject: "You can freely use the starter template to create your own project website. We hope you will contribute back any improvements you make that might help others. If you feel like you need to take the project another direction, feel free to fork our [GitHub repository](https://github.com/jimappleg8/open-artifacts-11ty-starter).",
 
   licenses: "The project website is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). The project's code is licensed under the [MIT License](https://opensource.org/licenses/MIT).",
 
@@ -53,7 +53,7 @@ export default {
   // other formats or sources, like Github Issues.
   needsDoing: {
     sourceType: "json",
-    url: "http://evolvetheworld.org/oa-roadmap.json"
+    url: "http://open-artifacts-11ty-starter.netflify.app/oa-roadmap.json"
   },
 
   // ========================================================================
@@ -74,7 +74,7 @@ export default {
   // and add them to the templates/_includes/icons/ folder.
   // These links are used in the footer and on the "Links in Bio" page.
   social: {
-    github: "https://github.com/jimappleg8/evolve-the-world",
+    github: "https://github.com/jimappleg8/open-artifacts-11ty-starter",
     gitlab: "",
     googledrive: "",
     bluesky: "https://bsky.app/profile/evolvetheworld.bsky.social",
@@ -85,7 +85,7 @@ export default {
   },
 
   // Set this to false to effectively remove the Starter Kit pages from the site.
-  showStarterKit: false,
+  showStarterKit: true,
 
   // Main Menu configuration.
   // The Starter Kit link will not be displayed if `showStarterKit` is false.
