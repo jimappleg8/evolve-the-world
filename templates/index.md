@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Open Artifacts 11ty Starter
+title: Evolve the World
 eleventyNavigation:
   key: home
 permalink: /index.html
