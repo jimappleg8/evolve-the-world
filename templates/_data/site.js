@@ -13,7 +13,7 @@ export default {
    */
 
   // The title of your site, used in the <title> tag and other places.
-  title: "Open Artifacts 11ty Starter",
+  title: "Evolve the World",
 
   // A short description of your site, used for SEO and other metadata.
   description: "An Eleventy starter template for creating Open Artifacts projects.",
@@ -85,7 +85,7 @@ export default {
   },
 
   // Set this to false to effectively remove the Starter Kit pages from the site.
-  showStarterKit: true,
+  showStarterKit: false,
 
   // Main Menu configuration.
   // The Starter Kit link will not be displayed if `showStarterKit` is false.
