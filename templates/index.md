@@ -9,7 +9,7 @@ permalink: /index.html
 
 {% from "macros/hero.njk" import hero %}
 {% set options = {
-  dark: true,
+  dark: false,
   titleText: "Don't just change the world. <span class=\"text-secondary-600\">Evolve it.</span>",
   subtitleText: "<span class=\"text-primary-300\">The secret to a good life:</span> help us build a world in which we all thrive. Use your hard-won experience, knowledge and skills to help us re-imagine the world for a better future.",
   buttonText: "Start your Creative Practice",
