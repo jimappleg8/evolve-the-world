@@ -36,3 +36,5 @@ So, I've been developing a loosely coupled system of ideas that might help. Here
 - A creative practice allows us to improve the world while simultaneously improving ourselves, or what I call strengthening our **Personal Universe**. The best way to move toward being a more whole human being is to actively engage with others pursuing the same goal. When we create, contribute to and adapt open artifacts, we find ourselves constantly challenging our personal universe (or what we think we know about ourselves and others), and that brings growth.
 
 The goal of EvolveTheWorld.org is to try to communicate these ideas, develop the infrastructure needed to make the whole thing viable, and to encourage people like you to embrace the role of Cultural Creator and help build this commons.
+
+{% endsection %}
