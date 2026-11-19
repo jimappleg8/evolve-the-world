@@ -1,10 +1,11 @@
 {
-  "name": "open-artifacts-starter",
+  "name": "evolve-the-world",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "npx eleventy",
-    "dev": "npx eleventy --serve"
+    "watch:outline": "chokidar \"templates/**/*.md\" --initial -c \"node ./src/obsidian-outline.js\"",
+    "dev": "concurrently \"npx eleventy --serve\" \"npm run watch:outline\""
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,8 @@
     "@11ty/eleventy": "^3.1.2",
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^10.0.4",
     "cssnano": "^7.1.2",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18"
@@ -24,8 +27,13 @@
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3",
     "markdown-it": "^14.1.0",
     "pagefind": "^1.4.0",
     "yaml": "^2.8.2"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true,
+    "sharp@0.33.5": true
   }
 }

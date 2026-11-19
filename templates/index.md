@@ -32,7 +32,7 @@ It makes sense that we would look for readily available solutions in an emergenc
 A creative practice is a simple set of steps that you can take to start using your best experience, knowledge and skills to improve the world. Here's how you can get started:
 
 - Learn what it means to [begin your creative practice](https://www.jimapplegate.com/your-creative-practice/) with this article. I wrote this a few years ago and it remains one of the clearest explanations available of what we're trying to do and why we're trying to do it.
-- Join our online community, [The Tensegrity](https://www.hylo.com/groups/tensegrity/join/rlwJ9x1qM7), even if you're just thinking about starting a creative practice. It's free and you can always delete your account later if you want.
+- Join our [online community](https://www.hylo.com/groups/tensegrity/join/rlwJ9x1qM7), hosted on Hylo, even if you're just thinking about starting a creative practice. It's free and you can always delete your account later if you want.
 - Check out our [Project Roadmap](/project/oa-roadmap/) section to see what projects you might be interested in. You're coming into this on the ground floor, as they say, so your unique experience, knowledge and skills are integral to making this work.
 - Start your own creative practice by creating, contributing to or adapting an open artifacts project. Help spread the word so the community grows and there are more collaborative opportunities.
 

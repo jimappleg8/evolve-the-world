@@ -5,7 +5,7 @@ description: 'A list of people who are committed to building a world that we can
 eleventyNavigation:
   key: Wall of Cultural Creators
   parent: project
-  order: 3
+  order: 4
 tags: project
 navKey: project-section
 ---

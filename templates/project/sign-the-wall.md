@@ -5,7 +5,7 @@ description: 'Look at a short pledge and add your name to the list of people who
 eleventyNavigation: 
   key: Sign the Wall
   parent: project
-  order: 4
+  order: 5
 tags: project
 navKey: project-section
 ---

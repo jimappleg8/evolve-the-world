@@ -4,7 +4,7 @@ title: "A Vision Statement"
 eleventyNavigation:
   key: Vision Statement
   parent: project
-  order: 2
+  order: 3
 description: "A kind of vision statement about what evolutionary design could be."
 tags: project
 navKey: project-section
